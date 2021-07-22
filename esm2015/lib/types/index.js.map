@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../libs/appwrite/angular/src/lib/types/index.ts"],"names":[],"mappings":"","sourcesContent":["export type Payload = {\r\n  [key: string]: any;\r\n}\r\n\r\nexport type Headers = {\r\n  [key: string]: string;\r\n}\r\nexport type HttpMethods = 'GET' | 'HEAD' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'\r\n"]}

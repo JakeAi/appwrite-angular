@@ -1,0 +1,20 @@
+{
+  "name": "@appwrite/angular",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^12.1.2",
+    "@angular/core": "^12.1.2",
+    "@appwrite/common": "0.0.1",
+    "url-parse": "^1.5.1"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "main": "bundles/appwrite-angular.umd.js",
+  "module": "fesm2015/appwrite-angular.js",
+  "es2015": "fesm2015/appwrite-angular.js",
+  "esm2015": "esm2015/appwrite-angular.js",
+  "fesm2015": "fesm2015/appwrite-angular.js",
+  "typings": "appwrite-angular.d.ts",
+  "sideEffects": false
+}
