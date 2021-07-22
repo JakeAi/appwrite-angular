@@ -46,6 +46,6 @@ export declare class AppwriteFunctionsService<T = Execution> {
      * @returns {Promise}
      */
     getExecution(functionId: string, executionId: string): Promise<T>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteFunctionsService<any>, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteFunctionsService<any>>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteFunctionsService<any>, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteFunctionsService<any>>;
 }

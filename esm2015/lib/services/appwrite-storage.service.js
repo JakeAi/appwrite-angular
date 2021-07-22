@@ -271,9 +271,9 @@ export class AppwriteStorageService {
         return uri;
     }
 }
-AppwriteStorageService.ɵfac = function AppwriteStorageService_Factory(t) { return new (t || AppwriteStorageService)(i0.ɵɵinject(i1.AppwriteService)); };
-AppwriteStorageService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteStorageService, factory: AppwriteStorageService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteStorageService, [{
-        type: Injectable
-    }], function () { return [{ type: i1.AppwriteService }]; }, null); })();
+AppwriteStorageService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService, deps: [{ token: i1.AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteStorageService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: i1.AppwriteService }]; } });
 //# sourceMappingURL=appwrite-storage.service.js.map

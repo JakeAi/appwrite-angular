@@ -1,4 +1,4 @@
-import { Document, DocumentsList } from '@appwrite/common';
+import { Document, DocumentBase, DocumentsList } from '@appwrite/common';
 import { AppwriteService } from './appwrite.service';
 import * as i0 from "@angular/core";
 export declare class AppwriteDocumentsService<T = Document<any>> {
@@ -23,7 +23,7 @@ export declare class AppwriteDocumentsService<T = Document<any>> {
      * @throws {AppwriteException}
      * @returns {Promise}
      */
-    listDocuments<R>(collectionId: string, filters?: string[], limit?: number, offset?: number, orderField?: string, orderType?: string, orderCast?: string, search?: string): Promise<DocumentsList<R>>;
+    listDocuments<R>(collectionId: string, filters?: string[], limit?: number, offset?: number, orderField?: keyof (R & DocumentBase) | string, orderType?: 'ASC' | 'DESC', orderCast?: 'int' | 'string' | 'date' | 'time' | 'datetime', search?: string): Promise<DocumentsList<R>>;
     /**
      * Create Document
      *
@@ -42,7 +42,7 @@ export declare class AppwriteDocumentsService<T = Document<any>> {
      * @throws {AppwriteException}
      * @returns {Promise}
      */
-    createDocument<R>(collectionId: string, data: Record<string, any>, read?: string[], write?: string[], parentDocument?: string, parentProperty?: string, parentPropertyType?: string): Promise<Document<R>>;
+    createDocument<R>(collectionId: string, data: R, read?: string[], write?: string[], parentDocument?: string, parentProperty?: string, parentPropertyType?: string): Promise<Document<R>>;
     /**
      * Get Document
      *
@@ -83,6 +83,6 @@ export declare class AppwriteDocumentsService<T = Document<any>> {
      * @returns {Promise}
      */
     deleteDocument(collectionId: string, documentId: string): Promise<void>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteDocumentsService<any>, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteDocumentsService<any>>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteDocumentsService<any>, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteDocumentsService<any>>;
 }

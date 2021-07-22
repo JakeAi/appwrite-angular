@@ -148,6 +148,6 @@ export declare class AppwriteTeamsService<T = Team> {
      * @returns {Promise}
      */
     updateMembershipStatus(teamId: string, membershipId: string, userId: string, secret: string): Promise<Membership>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteTeamsService<any>, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteTeamsService<any>>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteTeamsService<any>, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteTeamsService<any>>;
 }

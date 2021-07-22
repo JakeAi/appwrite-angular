@@ -139,9 +139,9 @@ export class AppwriteLocaleService {
         });
     }
 }
-AppwriteLocaleService.ɵfac = function AppwriteLocaleService_Factory(t) { return new (t || AppwriteLocaleService)(i0.ɵɵinject(i1.AppwriteService)); };
-AppwriteLocaleService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteLocaleService, factory: AppwriteLocaleService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteLocaleService, [{
-        type: Injectable
-    }], function () { return [{ type: i1.AppwriteService }]; }, null); })();
+AppwriteLocaleService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService, deps: [{ token: i1.AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteLocaleService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: i1.AppwriteService }]; } });
 //# sourceMappingURL=appwrite-locale.service.js.map

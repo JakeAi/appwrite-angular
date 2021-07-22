@@ -114,6 +114,6 @@ export declare class AppwriteAvatarService {
      * @returns {URLParse}
      */
     getQR(text: string, size?: number, margin?: number, download?: boolean): URLParse;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteAvatarService, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteAvatarService>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteAvatarService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteAvatarService>;
 }

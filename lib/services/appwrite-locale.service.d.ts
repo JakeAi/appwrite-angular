@@ -79,6 +79,6 @@ export declare class AppwriteLocaleService {
      * @returns {Promise}
      */
     getLanguages(): Promise<LanguagesList>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteLocaleService, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteLocaleService>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteLocaleService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteLocaleService>;
 }

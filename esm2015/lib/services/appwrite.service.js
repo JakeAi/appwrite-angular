@@ -115,19 +115,19 @@ export class AppwriteService {
         });
     }
 }
-AppwriteService.ɵfac = function AppwriteService_Factory(t) { return new (t || AppwriteService)(i0.ɵɵinject(APPWRITE_OPTIONS_TOKEN), i0.ɵɵinject(APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN), i0.ɵɵinject(APPWRITE_LOCATION_PROVIDER_TOKEN), i0.ɵɵinject(i1.HttpBackend)); };
-AppwriteService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteService, factory: AppwriteService.ɵfac, providedIn: 'root' });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteService, [{
-        type: Injectable,
-        args: [{ providedIn: 'root' }]
-    }], function () { return [{ type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_OPTIONS_TOKEN]
-            }] }, { type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN]
-            }] }, { type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_LOCATION_PROVIDER_TOKEN]
-            }] }, { type: i1.HttpBackend }]; }, null); })();
+AppwriteService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, deps: [{ token: APPWRITE_OPTIONS_TOKEN }, { token: APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN }, { token: APPWRITE_LOCATION_PROVIDER_TOKEN }, { token: i1.HttpBackend }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, providedIn: 'root' });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, decorators: [{
+            type: Injectable,
+            args: [{ providedIn: 'root' }]
+        }], ctorParameters: function () { return [{ type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_OPTIONS_TOKEN]
+                }] }, { type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN]
+                }] }, { type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_LOCATION_PROVIDER_TOKEN]
+                }] }, { type: i1.HttpBackend }]; } });
 //# sourceMappingURL=appwrite.service.js.map

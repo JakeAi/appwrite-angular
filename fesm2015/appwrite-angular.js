@@ -144,21 +144,21 @@ class AppwriteService {
         });
     }
 }
-AppwriteService.ɵfac = function AppwriteService_Factory(t) { return new (t || AppwriteService)(i0.ɵɵinject(APPWRITE_OPTIONS_TOKEN), i0.ɵɵinject(APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN), i0.ɵɵinject(APPWRITE_LOCATION_PROVIDER_TOKEN), i0.ɵɵinject(i1.HttpBackend)); };
-AppwriteService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteService, factory: AppwriteService.ɵfac, providedIn: 'root' });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteService, [{
-        type: Injectable,
-        args: [{ providedIn: 'root' }]
-    }], function () { return [{ type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_OPTIONS_TOKEN]
-            }] }, { type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN]
-            }] }, { type: undefined, decorators: [{
-                type: Inject,
-                args: [APPWRITE_LOCATION_PROVIDER_TOKEN]
-            }] }, { type: i1.HttpBackend }]; }, null); })();
+AppwriteService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, deps: [{ token: APPWRITE_OPTIONS_TOKEN }, { token: APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN }, { token: APPWRITE_LOCATION_PROVIDER_TOKEN }, { token: i1.HttpBackend }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, providedIn: 'root' });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteService, decorators: [{
+            type: Injectable,
+            args: [{ providedIn: 'root' }]
+        }], ctorParameters: function () { return [{ type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_OPTIONS_TOKEN]
+                }] }, { type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_LOCAL_STORAGE_PROVIDER_TOKEN]
+                }] }, { type: undefined, decorators: [{
+                    type: Inject,
+                    args: [APPWRITE_LOCATION_PROVIDER_TOKEN]
+                }] }, { type: i1.HttpBackend }]; } });
 
 class AppwriteAccountService {
     constructor(appwriteService) {
@@ -755,11 +755,11 @@ class AppwriteAccountService {
         });
     }
 }
-AppwriteAccountService.ɵfac = function AppwriteAccountService_Factory(t) { return new (t || AppwriteAccountService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteAccountService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteAccountService, factory: AppwriteAccountService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAccountService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteAccountService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteAccountService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteAvatarService {
     constructor(appwriteService) {
@@ -1009,11 +1009,11 @@ class AppwriteAvatarService {
         return uri;
     }
 }
-AppwriteAvatarService.ɵfac = function AppwriteAvatarService_Factory(t) { return new (t || AppwriteAvatarService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteAvatarService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteAvatarService, factory: AppwriteAvatarService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAvatarService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteAvatarService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteAvatarService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteDocumentsService {
     constructor(appwriteService) {
@@ -1210,11 +1210,11 @@ class AppwriteDocumentsService {
         });
     }
 }
-AppwriteDocumentsService.ɵfac = function AppwriteDocumentsService_Factory(t) { return new (t || AppwriteDocumentsService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteDocumentsService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteDocumentsService, factory: AppwriteDocumentsService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteDocumentsService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteDocumentsService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteDocumentsService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteDocumentsService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteDocumentsService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteDocumentsService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteFunctionsService {
     constructor(appwriteService) {
@@ -1309,11 +1309,11 @@ class AppwriteFunctionsService {
         });
     }
 }
-AppwriteFunctionsService.ɵfac = function AppwriteFunctionsService_Factory(t) { return new (t || AppwriteFunctionsService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteFunctionsService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteFunctionsService, factory: AppwriteFunctionsService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteFunctionsService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteFunctionsService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteFunctionsService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteFunctionsService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteFunctionsService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteFunctionsService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteLocaleService {
     constructor(appwriteService) {
@@ -1451,11 +1451,11 @@ class AppwriteLocaleService {
         });
     }
 }
-AppwriteLocaleService.ɵfac = function AppwriteLocaleService_Factory(t) { return new (t || AppwriteLocaleService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteLocaleService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteLocaleService, factory: AppwriteLocaleService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteLocaleService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteLocaleService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteLocaleService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteLocaleService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteStorageService {
     constructor(appwriteService) {
@@ -1722,11 +1722,11 @@ class AppwriteStorageService {
         return uri;
     }
 }
-AppwriteStorageService.ɵfac = function AppwriteStorageService_Factory(t) { return new (t || AppwriteStorageService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteStorageService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteStorageService, factory: AppwriteStorageService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteStorageService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteStorageService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteStorageService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteStorageService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteTeamsService {
     constructor(appwriteService) {
@@ -2071,11 +2071,11 @@ class AppwriteTeamsService {
         });
     }
 }
-AppwriteTeamsService.ɵfac = function AppwriteTeamsService_Factory(t) { return new (t || AppwriteTeamsService)(i0.ɵɵinject(AppwriteService)); };
-AppwriteTeamsService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteTeamsService, factory: AppwriteTeamsService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteTeamsService, [{
-        type: Injectable
-    }], function () { return [{ type: AppwriteService }]; }, null); })();
+AppwriteTeamsService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService, deps: [{ token: AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteTeamsService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: AppwriteService }]; } });
 
 class AppwriteAngularModule {
     static forRoot(options) {
@@ -2097,19 +2097,18 @@ class AppwriteAngularModule {
         };
     }
 }
-AppwriteAngularModule.ɵfac = function AppwriteAngularModule_Factory(t) { return new (t || AppwriteAngularModule)(); };
-AppwriteAngularModule.ɵmod = i0.ɵɵdefineNgModule({ type: AppwriteAngularModule });
-AppwriteAngularModule.ɵinj = i0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, HttpClientModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(AppwriteAngularModule, { imports: [CommonModule, HttpClientModule] }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAngularModule, [{
-        type: NgModule,
-        args: [{
-                declarations: [],
-                imports: [CommonModule, HttpClientModule],
-                providers: [],
-                exports: [],
-            }]
-    }], null, null); })();
+AppwriteAngularModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+AppwriteAngularModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, imports: [CommonModule, HttpClientModule] });
+AppwriteAngularModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, providers: [], imports: [[CommonModule, HttpClientModule]] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [],
+                    imports: [CommonModule, HttpClientModule],
+                    providers: [],
+                    exports: [],
+                }]
+        }] });
 
 /**
  * Generated bundle index. Do not edit.

@@ -347,9 +347,9 @@ export class AppwriteTeamsService {
         });
     }
 }
-AppwriteTeamsService.ɵfac = function AppwriteTeamsService_Factory(t) { return new (t || AppwriteTeamsService)(i0.ɵɵinject(i1.AppwriteService)); };
-AppwriteTeamsService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteTeamsService, factory: AppwriteTeamsService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteTeamsService, [{
-        type: Injectable
-    }], function () { return [{ type: i1.AppwriteService }]; }, null); })();
+AppwriteTeamsService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService, deps: [{ token: i1.AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteTeamsService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteTeamsService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: i1.AppwriteService }]; } });
 //# sourceMappingURL=appwrite-teams.service.js.map

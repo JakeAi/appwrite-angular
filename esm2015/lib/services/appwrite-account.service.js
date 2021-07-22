@@ -601,9 +601,9 @@ export class AppwriteAccountService {
         });
     }
 }
-AppwriteAccountService.ɵfac = function AppwriteAccountService_Factory(t) { return new (t || AppwriteAccountService)(i0.ɵɵinject(i1.AppwriteService)); };
-AppwriteAccountService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteAccountService, factory: AppwriteAccountService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAccountService, [{
-        type: Injectable
-    }], function () { return [{ type: i1.AppwriteService }]; }, null); })();
+AppwriteAccountService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService, deps: [{ token: i1.AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteAccountService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAccountService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: i1.AppwriteService }]; } });
 //# sourceMappingURL=appwrite-account.service.js.map

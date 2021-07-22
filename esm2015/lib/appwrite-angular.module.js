@@ -30,17 +30,16 @@ export class AppwriteAngularModule {
         };
     }
 }
-AppwriteAngularModule.ɵfac = function AppwriteAngularModule_Factory(t) { return new (t || AppwriteAngularModule)(); };
-AppwriteAngularModule.ɵmod = i0.ɵɵdefineNgModule({ type: AppwriteAngularModule });
-AppwriteAngularModule.ɵinj = i0.ɵɵdefineInjector({ providers: [], imports: [[CommonModule, HttpClientModule]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(AppwriteAngularModule, { imports: [CommonModule, HttpClientModule] }); })();
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAngularModule, [{
-        type: NgModule,
-        args: [{
-                declarations: [],
-                imports: [CommonModule, HttpClientModule],
-                providers: [],
-                exports: [],
-            }]
-    }], null, null); })();
+AppwriteAngularModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+AppwriteAngularModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, imports: [CommonModule, HttpClientModule] });
+AppwriteAngularModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, providers: [], imports: [[CommonModule, HttpClientModule]] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAngularModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [],
+                    imports: [CommonModule, HttpClientModule],
+                    providers: [],
+                    exports: [],
+                }]
+        }] });
 //# sourceMappingURL=appwrite-angular.module.js.map

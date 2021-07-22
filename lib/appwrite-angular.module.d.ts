@@ -16,7 +16,7 @@ export interface AppwriteOptions {
 }
 export declare class AppwriteAngularModule {
     static forRoot(options: AppwriteOptions): ModuleWithProviders<AppwriteAngularModule>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteAngularModule, never>;
-    static ɵmod: i0.ɵɵNgModuleDefWithMeta<AppwriteAngularModule, never, [typeof i1.CommonModule, typeof i2.HttpClientModule], never>;
-    static ɵinj: i0.ɵɵInjectorDef<AppwriteAngularModule>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteAngularModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<AppwriteAngularModule, never, [typeof i1.CommonModule, typeof i2.HttpClientModule], never>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<AppwriteAngularModule>;
 }

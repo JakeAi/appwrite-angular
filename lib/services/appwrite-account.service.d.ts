@@ -288,6 +288,6 @@ export declare class AppwriteAccountService<T = User> {
      * @returns {Promise}
      */
     updateVerification(userId: string, secret: string): Promise<Token>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteAccountService<any>, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteAccountService<any>>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteAccountService<any>, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteAccountService<any>>;
 }

@@ -253,9 +253,9 @@ export class AppwriteAvatarService {
         return uri;
     }
 }
-AppwriteAvatarService.ɵfac = function AppwriteAvatarService_Factory(t) { return new (t || AppwriteAvatarService)(i0.ɵɵinject(i1.AppwriteService)); };
-AppwriteAvatarService.ɵprov = i0.ɵɵdefineInjectable({ token: AppwriteAvatarService, factory: AppwriteAvatarService.ɵfac });
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AppwriteAvatarService, [{
-        type: Injectable
-    }], function () { return [{ type: i1.AppwriteService }]; }, null); })();
+AppwriteAvatarService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService, deps: [{ token: i1.AppwriteService }], target: i0.ɵɵFactoryTarget.Injectable });
+AppwriteAvatarService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.1.3", ngImport: i0, type: AppwriteAvatarService, decorators: [{
+            type: Injectable
+        }], ctorParameters: function () { return [{ type: i1.AppwriteService }]; } });
 //# sourceMappingURL=appwrite-avatar.service.js.map

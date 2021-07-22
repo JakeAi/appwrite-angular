@@ -117,6 +117,6 @@ export declare class AppwriteStorageService<T = AppwriteFile> {
      * @returns {URLParse}
      */
     getFileView(fileId: string): URLParse;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteStorageService<any>, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteStorageService<any>>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteStorageService<any>, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteStorageService<any>>;
 }

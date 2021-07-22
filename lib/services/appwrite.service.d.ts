@@ -19,6 +19,6 @@ export declare class AppwriteService {
     setJWT(value: string): this;
     setLocale(value: string): this;
     call<T>(method: HttpMethods, path: string, headers?: Headers, params?: Payload): Promise<T>;
-    static ɵfac: i0.ɵɵFactoryDef<AppwriteService, never>;
-    static ɵprov: i0.ɵɵInjectableDef<AppwriteService>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<AppwriteService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<AppwriteService>;
 }
